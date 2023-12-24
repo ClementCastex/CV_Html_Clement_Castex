@@ -123,8 +123,8 @@ footer {
   flex: 2;
   margin: 1rem;
   padding-top: 7rem;
-  margin-top: 4px;
-  margin-bottom: -160px;
+  margin-top: 0.25rem;
+  margin-bottom: -10.03rem;
 }
 
 .box-r {
