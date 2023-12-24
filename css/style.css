@@ -244,6 +244,10 @@ h2 footer {
 }
 .AD {
   padding-left: 20px;
+  font-weight: bold;
+}
+.-- {
+  font-weight: bold;
 }
 li.K {
   background-image: url("/images/krita-icon.png");
@@ -276,6 +280,20 @@ li.IN {
 li.PH {
   background-image: url("/images/icon-photoshop.png");
   background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+}
+
+li.PP {
+  background-image: url("/images/icon-premierepro.png");
+  background-size: 19px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+}
+
+li.LR {
+  background-image: url("/images/icon-Lightroom.png");
+  background-size: 23px;
   background-repeat: no-repeat;
   padding-left: 23px;
 }
