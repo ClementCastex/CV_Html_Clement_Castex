@@ -1,0 +1,281 @@
+/* Abstract */
+html,
+body {
+  background-color: #ffffff;
+  width: 1080px;
+  height: auto;
+}
+
+/* Bases */
+.police {
+  font-family: Montserrat, regular;
+}
+
+h1,
+h2,
+.sous-titre,
+.st-gras {
+  font-family: Montserrat, regular;
+}
+
+.sous-titre {
+  font-size: 2.6rem;
+  text-align: left;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+
+.st-gras {
+  font-size: 3.3rem;
+  text-align: right;
+}
+
+h2 {
+  background-color: #f1ba7a;
+  font-size: 1.875rem;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-family: Montserrat, regular;
+  text-align: center;
+}
+
+/* Layout */
+header {
+  background-color: #ffffff;
+  display: flex;
+  width: 1080px;
+  height: 28rem;
+}
+section {
+  padding: 1rem;
+}
+
+img {
+  position: absolute;
+  top: 10px;
+  width: 24rem;
+  height: 24rem;
+  margin: 2rem;
+  z-index: 6;
+  border: none;
+  -moz-border-radius: 250px;
+  -webkit-border-radius: 250px;
+  border-radius: 250px;
+}
+
+footer {
+  background-color: #ebebeb;
+  z-index: 5;
+}
+
+.mail ::before {
+  content: "✉️";
+  width: 1.5rem;
+}
+
+.tel::before {
+  content: "📞";
+  width: 1.5rem;
+}
+
+.linkedin::before {
+  content: url();
+  margin-right: 6px;
+}
+
+/* Contacter Section */
+.contacter {
+  text-align: center;
+  background-color: #ebebeb;
+  min-height: 10rem;
+  padding-top: 9.4rem;
+  margin-top: -9.4rem;
+}
+
+.contacter h2 {
+  background-color: #ebebeb;
+}
+
+/* Box Styling */
+.box,
+.box2 {
+  display: flex;
+}
+
+.box,
+.box-l,
+.box-r,
+.box2,
+.box2-l,
+.box2-r {
+  text-align: left;
+}
+
+.box {
+  width: 1080px;
+  height: 700px;
+  display: flex;
+}
+
+.box-l {
+  text-align: left;
+  width: 40%;
+  flex: 2;
+  margin: 1rem;
+  padding-top: 7rem;
+  margin-top: 4px;
+  margin-bottom: -160px;
+}
+
+.box-r {
+  text-align: left;
+  width: 60%;
+  flex: 3;
+}
+
+.box-r h2 {
+  margin-left: -2rem;
+}
+
+.box2 :first-child {
+  align-self: auto;
+}
+
+.box2-l {
+  text-align: left;
+  width: 40%;
+  flex: 2;
+}
+
+.box2-r {
+  text-align: left;
+  width: 60%;
+  flex: 3;
+}
+
+.box-l {
+  background: #f1ba7a;
+}
+
+.text-titre {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+/* Styling */
+h1 {
+  position: sticky;
+  top: 0px;
+  font-size: 4.3rem;
+  font-family: Montserrat, regular;
+  color: #f1ba7a;
+  background-color: #fff;
+}
+
+h2 footer {
+  color: #ebebeb;
+}
+
+.box-r .fond-gris {
+  background-color: #ebebeb;
+  border-radius: 30px;
+  font-family: Montserrat, regular;
+  padding: 0.3rem;
+}
+
+.rectangle-pointu {
+  position: relative;
+}
+
+.rectangle-pointu_orange {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 210px solid transparent;
+  border-right: 210px solid transparent;
+  border-top: 150px solid #f1ba7a;
+  bottom: 1rem;
+}
+
+.rectangle-pointu_blanc {
+  width: 0;
+  height: 0;
+  border-left: 210px solid transparent;
+  border-right: 210px solid transparent;
+  border-top: 150px solid #ffffff;
+  margin-top: 0.85rem;
+}
+
+.top_img {
+  position: relative;
+}
+
+.rectangle-pointu_noir {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 210px solid transparent;
+  border-right: 210px solid transparent;
+  border-top: 150px solid #323232;
+  margin-top: -16px;
+  margin-left: 16px;
+  bottom: -8.6rem;
+}
+
+.rectangle_noir {
+  min-width: 420px;
+  height: 420px;
+  background-color: #323232;
+  margin: 1rem;
+}
+
+.rectangle-pointu_blanc_top {
+  width: 0;
+  height: 0;
+  border-left: 210px solid transparent;
+  border-right: 210px solid transparent;
+  border-top: 150px solid #ffffff;
+  margin-left: 16px;
+}
+
+.box2-r ul {
+  list-style-type: none;
+}
+.AD {
+  padding-left: 20px;
+}
+li.K {
+  background-image: url("/images/krita-icon.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+}
+
+li.HC {
+  background-image: url("/images/icone-html.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+}
+
+li.IL {
+  background-image: url("/images/icon-illustrator.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+}
+
+li.IN {
+  background-image: url("/images/icon-indesign.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+}
+
+li.PH {
+  background-image: url("/images/icon-photoshop.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 23px;
+}
